@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Poppins&family=Quicksand&display=swap");
+
+body {
+  font-family: "Comfortaa";
+  color: white;
+  background-color: #343434;
+}
+
+#app {
+  background-color: #333;
+  width: 90%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#app .info {
+  text-align: left;
+  width: 70%;
+  margin: 10px auto;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.male {
+  border: 2px solid red;
+}
+
+.female {
+  border: 2px solid pink;
+  background-color: pink;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: red;
+  border: 2px solid white;
+  transition: 300ms;
+}
