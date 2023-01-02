@@ -1,2 +1,2 @@
 # To-Do-List
-Created with CodeSandbox
+A To-Do List built with VueJS
