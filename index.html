@@ -16,14 +16,15 @@
   </head>
   <body>
     <div id="app">
-      <img :class="gender" :src="picture" :alt="firstName"></img>
+      <img :class="gender" :src="image" alt="" />
       <section class="info">
-          <h1>Welcome {{firstName}} {{lastName}}</h1>
-          <p>Your email is {{email}}</p>
-          <p>Your gender is {{gender}}</p>
+         <h1>Welcome {{firstName}} {{lastName}}</h1>
+          <p>You are {{gender}}</p>
+          <p>Your mail is {{email}}</p>
+          <p>Your number is {{number}}</p>
+          <p>You live in {{location}}</p>
       </section>
-      <button :class="gender" @click="getUser()">Change User</button>
-      {{info}}
+      <button :class="gender" @click="getUser()">Get Random User</button>
     </div>
 
     <script src="https://unpkg.com/vue@3"></script>
